@@ -1,4 +1,7 @@
 {
     "c-cpp-compile-run.save-before-compile": false,
-    "C_Cpp.default.cStandard": "c99"
+    "C_Cpp.default.cStandard": "c99",
+    "files.associations": {
+        "stdio.h": "c"
+    }
 }

@@ -9,12 +9,8 @@ typedef unsigned long long int ulli;
 //} bool;
 
 int main(void){
-    int x = 10;
-    int y = 20;
-    while (x ++< y)
-    {
-        printf("%d\n", x);
-    }
-    
+    double antigo, novo;
+    scanf("%lf %lf", &antigo, &novo);
+    printf("%.2lf%%\n", ((novo/antigo) * 100) - 100 );
     return 0;
 }

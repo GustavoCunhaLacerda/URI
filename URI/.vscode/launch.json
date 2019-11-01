@@ -2,6 +2,36 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GastoDeCombustivel",
+            "request": "launch",
+            "mainClass": "GastoDeCombustivel"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Distancia",
+            "request": "launch",
+            "mainClass": "Distancia"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DistanciaEntreDoisPontos",
+            "request": "launch",
+            "mainClass": "DistanciaEntreDoisPontos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Consumo",
+            "request": "launch",
+            "mainClass": "Consumo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OMaior",
+            "request": "launch",
+            "mainClass": "OMaior"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Area",
             "request": "launch",
             "mainClass": "Area"

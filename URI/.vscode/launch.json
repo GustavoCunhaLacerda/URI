@@ -2,6 +2,72 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Area",
+            "request": "launch",
+            "mainClass": "Area"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Esfera",
+            "request": "launch",
+            "mainClass": "Esfera"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CalculoSimples",
+            "request": "launch",
+            "mainClass": "CalculoSimples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SalarioComBonus",
+            "request": "launch",
+            "mainClass": "SalarioComBonus"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Salario",
+            "request": "launch",
+            "mainClass": "Salario"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Diferenca",
+            "request": "launch",
+            "mainClass": "Diferenca"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Media2",
+            "request": "launch",
+            "mainClass": "Media2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Media1",
+            "request": "launch",
+            "mainClass": "Media1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ProdutoSimples3",
+            "request": "launch",
+            "mainClass": "ProdutoSimples3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ProdutoSimples",
+            "request": "launch",
+            "mainClass": "ProdutoSimples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SomaSimples",
+            "request": "launch",
+            "mainClass": "SomaSimples"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AreaDoCirculo",
             "request": "launch",
             "mainClass": "AreaDoCirculo"

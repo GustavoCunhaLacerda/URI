@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class SomaSimples {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double a;
-        a = input.nextDouble();
-        double area = a*a*3.14159;
-        String str = String.format("%.04f", area);
-        System.out.println("A=" + str);
+        int a, b;
+        a = input.nextInt();
+        b = input.nextInt();
+        int soma = a+b;
+        System.out.println("SOMA = " + soma);
         input.close();
     }
 }

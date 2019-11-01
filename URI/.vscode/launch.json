@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AreaDoCirculo",
+            "request": "launch",
+            "mainClass": "AreaDoCirculo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExtremamenteBasico",
+            "request": "launch",
+            "mainClass": "ExtremamenteBasico"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - helloworld",
+            "request": "launch",
+            "mainClass": "primeiroprograma.helloworld"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrimeiroPrograma",
+            "request": "launch",
+            "mainClass": "primeiro_programa.PrimeiroPrograma"
+        }
+    ]
+}

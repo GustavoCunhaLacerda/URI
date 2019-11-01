@@ -8,6 +8,7 @@ C      = ["C",      -1]
 Cpp    = ["C++",    -1]
 Lua    = ["Lua",    -1]
 Python = ["Python", -1]
+Java   = ["Java",   -1]
 
 def analise_pastas_arquivos(entries):
     for item in entries:
@@ -20,12 +21,18 @@ def analise_pastas_arquivos(entries):
             Lua[1] = 1
         if item == "Python":
             Python[1] = 1
+        if item == "Java":
+            Java[1] = 1
 
         # arquivos
         if item.find(".cpp") != -1:
             Cpp.append(item)
         elif item.find(".c") != -1:
             C.append(item)
+        elif item.find(".java") != -1:
+            Java.append(item)
+        elif item.find(".class") != -1:
+            os.system("rm {}".format(item))
         elif item.find(".lua") != -1:
             Lua.append(item)
         elif item.find(".py") != -1:
@@ -83,6 +90,19 @@ def criacao_pastas():
         organizar(Python)
     else:
         print("Não há arquivos 'Python' para organizar")
+    print("FIM")
+
+    print("\nJava:")
+    if len(Java) > 2:
+        if Java[1] == 1:
+            print("Pasta de 'Java' EXISTENTE e pronta para abrigar arquivos !")
+        else:
+            print("Criando pasta de 'Java':", end= ' ')
+            os.system("mkdir Java")
+            print("FEITO")
+        organizar(Java)
+    else:
+        print("Não há arquivos 'Java' para organizar")
     print("FIM")
 
 def organizar(linguagem):

@@ -2,6 +2,96 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TempoDeJogoComMinutos",
+            "request": "launch",
+            "mainClass": "TempoDeJogoComMinutos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TempoDeJogo",
+            "request": "launch",
+            "mainClass": "TempoDeJogo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TiposDeTriangulos",
+            "request": "launch",
+            "mainClass": "TiposDeTriangulos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Triangulo",
+            "request": "launch",
+            "mainClass": "Triangulo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SortSimples",
+            "request": "launch",
+            "mainClass": "SortSimples"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CoordenadasDeUmPonto",
+            "request": "launch",
+            "mainClass": "CoordenadasDeUmPonto"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Media3",
+            "request": "launch",
+            "mainClass": "Media3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lanche",
+            "request": "launch",
+            "mainClass": "Lanche"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Intervalo",
+            "request": "launch",
+            "mainClass": "Intervalo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FormulaDeBhaskara",
+            "request": "launch",
+            "mainClass": "FormulaDeBhaskara"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TesteDeSelecao1",
+            "request": "launch",
+            "mainClass": "TesteDeSelecao1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NotasEMoedas",
+            "request": "launch",
+            "mainClass": "NotasEMoedas"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IdadeEmDias",
+            "request": "launch",
+            "mainClass": "IdadeEmDias"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConversaoDeTempo",
+            "request": "launch",
+            "mainClass": "ConversaoDeTempo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cedulas",
+            "request": "launch",
+            "mainClass": "Cedulas"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - GastoDeCombustivel",
             "request": "launch",
             "mainClass": "GastoDeCombustivel"

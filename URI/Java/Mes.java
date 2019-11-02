@@ -1,6 +1,6 @@
-import java.util.Scanner;
-import java.lang.Math;
+package Java;
 
+import java.util.Scanner;
 public class Mes {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

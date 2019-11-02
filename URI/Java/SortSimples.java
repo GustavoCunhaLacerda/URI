@@ -1,6 +1,6 @@
+package Java;
+
 import java.util.Scanner;
-import java.lang.Math;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class SortSimples {

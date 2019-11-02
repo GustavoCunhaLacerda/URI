@@ -1,5 +1,6 @@
+package Java;
+
 import java.util.Scanner;
-import java.lang.Math;
 
 public class TempoDeJogoComMinutos {
     public static void main(String[] args) {

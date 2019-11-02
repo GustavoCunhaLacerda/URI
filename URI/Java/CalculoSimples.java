@@ -1,15 +1,15 @@
+package Java;
+
 import java.util.Scanner;
 
 public class CalculoSimples {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int tag1, tag2, qte1, qte2;
+        int qte1, qte2;
         float preco1, preco2, valor;
-        tag1 = input.nextInt();
         qte1 = input.nextInt();
         preco1 = input.nextFloat();
 
-        tag2 = input.nextInt();
         qte2 = input.nextInt();
         preco2 = input.nextFloat();
 

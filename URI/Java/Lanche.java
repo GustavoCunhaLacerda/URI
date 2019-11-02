@@ -1,5 +1,7 @@
+package Java;
+
 import java.util.Scanner;
-import java.lang.Math;
+// import java.lang.Math;
 
 public class Lanche {
     public static void main(String[] args) {

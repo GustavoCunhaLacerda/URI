@@ -1,6 +1,7 @@
+package Java;
+
 import java.util.Arrays;
 import java.util.Scanner;
-import java.lang.Math;
 
 public class TiposDeTriangulos {
     public static void main(String[] args) {

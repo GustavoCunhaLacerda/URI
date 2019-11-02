@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ParesEntreCincoNumeros",
+            "request": "launch",
+            "mainClass": "ParesEntreCincoNumeros"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PositivosEMedia",
+            "request": "launch",
+            "mainClass": "PositivosEMedia"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumerosPositivos",
+            "request": "launch",
+            "mainClass": "NumerosPositivos"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumerosPares",
+            "request": "launch",
+            "mainClass": "NumerosPares"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Mes",
+            "request": "launch",
+            "mainClass": "Mes"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Animal",
+            "request": "launch",
+            "mainClass": "Animal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AumentoDeSalario",
+            "request": "launch",
+            "mainClass": "AumentoDeSalario"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TempoDeJogoComMinutos",
             "request": "launch",
             "mainClass": "TempoDeJogoComMinutos"

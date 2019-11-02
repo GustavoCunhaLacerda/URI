@@ -2,6 +2,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MediasPonderadas",
+            "request": "launch",
+            "mainClass": "MediasPonderadas",
+            "projectName": "URI_b736b1d3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Tabuada",
+            "request": "launch",
+            "mainClass": "Tabuada",
+            "projectName": "URI_b736b1d3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Resto2",
+            "request": "launch",
+            "mainClass": "Resto2",
+            "projectName": "URI_b736b1d3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ParOuImpar",
+            "request": "launch",
+            "mainClass": "ParOuImpar",
+            "projectName": "URI_b736b1d3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - QuadradoDePares",
+            "request": "launch",
+            "mainClass": "QuadradoDePares",
+            "projectName": "URI_b736b1d3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SeisNumerosImpares",
+            "request": "launch",
+            "mainClass": "SeisNumerosImpares",
+            "projectName": "URI_b736b1d3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumerosImpares",
+            "request": "launch",
+            "mainClass": "NumerosImpares",
+            "projectName": "URI_b736b1d3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ParesEntreCincoNumeros",
             "request": "launch",
             "mainClass": "ParesEntreCincoNumeros"

@@ -9,6 +9,7 @@ Cpp    = ["C++",    -1]
 Lua    = ["Lua",    -1]
 Python = ["Python", -1]
 Java   = ["Java",   -1]
+Go   = ["GO",   -1]
 
 def analise_pastas_arquivos(entries):
     for item in entries:
@@ -23,6 +24,8 @@ def analise_pastas_arquivos(entries):
             Python[1] = 1
         if item == "Java":
             Java[1] = 1
+        if item == "GO":
+            Go[1] = 1
 
         # arquivos
         if item.find(".cpp") != -1:
@@ -35,6 +38,8 @@ def analise_pastas_arquivos(entries):
             os.system("rm {}".format(item))
         elif item.find(".lua") != -1:
             Lua.append(item)
+        elif item.find(".go") != -1:
+            Go.append(item)
         elif item.find(".py") != -1:
             if item != "uri_org.py":
                 Python.append(item)
@@ -103,6 +108,19 @@ def criacao_pastas():
         organizar(Java)
     else:
         print("Não há arquivos 'Java' para organizar")
+    print("FIM")
+
+    print("\nGO:")
+    if len(Go) > 2:
+        if Go[1] == 1:
+            print("Pasta de 'Golang' EXISTENTE e pronta para abrigar arquivos !")
+        else:
+            print("Criando pasta de 'Golang':", end= ' ')
+            os.system("mkdir GO")
+            print("FEITO")
+        organizar(Go)
+    else:
+        print("Não há arquivos 'Golang' para organizar")
     print("FIM")
 
 def organizar(linguagem):
